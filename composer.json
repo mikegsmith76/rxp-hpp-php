@@ -21,9 +21,9 @@
   "license": "MIT",
   "require": {
     "php": ">=8.0",
-    "symfony/validator": "2.7.*",
+    "symfony/validator": "^5.4.43",
     "doctrine/annotations":"~1",
-    "doctrine/cache":"1.4.*"
+    "doctrine/cache":"1.12.*"
   },
   "require-dev": {
     "psr/log": "^1.0 || ^2.0 || ^3.0",
