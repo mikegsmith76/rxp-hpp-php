@@ -112,7 +112,7 @@ class GenerationUtils
             return trim(com_create_guid(), '{}');
         }
 
-//			mt_srand( (double) microtime() * 10000 );//optional for php 4.2.0 and up.
+        mt_srand((int)((double)microtime() * 10000));//optional for php 4.2.0 and up.
         $charId = strtoupper(md5(uniqid(rand(), true)));
         $hyphen = chr(45);// "-"
         $uuid = chr(123)// "{"
